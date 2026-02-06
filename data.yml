@@ -1,8 +1,7 @@
 report:
   title: System Status Report
   generated_for: Demo Project
-  environment: maintenance
-
+  environment: development
 components:
   - name: Report Generator
     status: active
