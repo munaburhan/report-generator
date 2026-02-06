@@ -1,0 +1,15 @@
+report:
+  title: System Status Report
+  generated_for: Demo Project
+  environment: development
+
+components:
+  - name: Report Generator
+    status: active
+    owner: you
+    notes: Generates a Markdown report from YAML.
+
+  - name: File Organizer
+    status: in progress
+    owner: you
+    notes: Desktop tool to organize files automatically.
