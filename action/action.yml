@@ -1,0 +1,5 @@
+name: "Report Generator"
+description: "Generates REPORT.md from data.yml using Python"
+runs:
+  using: "docker"
+  image: "Dockerfile"
