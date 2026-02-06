@@ -20,16 +20,9 @@ jobs:
         with:
           persist-credentials: true
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
+      - name: Generate report (local action)
+        uses: ./action
 
-      - name: Install dependencies
-        run: pip install pyyaml
-
-      - name: Generate report
-        run: python generate_report.py
 
       - name: Commit REPORT.md if changed
         run: |
